@@ -1,4 +1,4 @@
-# Moot.it
+# Meteor-Moot
 Forums and commenting re-imagined. You can now easily integrate moot into Meteor to add comments and forums in one line.
 
 Official site: [moot.it](https://moot.it)
