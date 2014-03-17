@@ -12,11 +12,15 @@ Let's use the following DIV tag:
 ```
 You can install Moot inside this tag with JavaScript as follows:
 ```
-$("#my-moot").moot({
-   url: "https://moot.it/i/goma/exhibitions/2012:anders-baumann",
-   title: "Anders Baumann Exhibition"
-});
+Template.sth.rendered = function(){
+   $("#my-moot").moot({
+      url: "https://moot.it/i/goma/exhibitions/2012:anders-baumann",
+      title: "Anders Baumann Exhibition"
+   });
+}
 ```
+
+Note that `$("#my-moot").moot()` requires DOM to be ready to use, so the safe practice to trigger `moot` is to put this code inside `Meteor.startup` or `Template.sth.rendered`. 
 
 You select the element with a jQuery selector and call moot with a configuration object. The available configuration options are:
 
@@ -27,4 +31,6 @@ You select the element with a jQuery selector and call moot with a configuration
 * `upload` to enable / disable image uploading (default: true)
 
 
-**Note**: multiple  instances of moot is not supported.
+**Note**: 
+* multiple  instances of moot is not supported.
+* The right bottom symbol can be removed with CSS : `.m-logo {display:none;}`
