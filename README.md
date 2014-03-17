@@ -22,7 +22,7 @@ Template.sth.rendered = function(){
 
 Note that `$("#my-moot").moot()` requires DOM to be ready to use, so the safe practice to trigger `moot` is to put this code inside `Meteor.startup` or `Template.sth.rendered`. 
 
-You select the element with a jQuery selector and call moot with a configuration object. The available configuration options are:
+You can select the element with a jQuery selector and call moot with a configuration object. The available configuration options are:
 
 
 * `url` the discussion path.
