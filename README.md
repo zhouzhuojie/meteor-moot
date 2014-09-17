@@ -5,6 +5,11 @@ Official site: [moot.it](https://moot.it)
 
 Doc: [Documentation](https://moot.it/docs/)
 
+# Installation
+```
+meteor add mrt:moot
+```
+
 # Setup
 Let's use the following DIV tag:
 ```
