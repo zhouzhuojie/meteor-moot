@@ -21,7 +21,7 @@
 .m-button:disabled,.moot button:disabled{cursor:default;background-image:none;background:#ccc !important;box-shadow:none}
 button.m-danger{background-color:#be0000}
 button.m-secondary{border:.1em solid #ccc;margin-right:.3em;color:#999;background-color:transparent !important;}
-button.m-secondary:hover{color:#555;border-color:#999;arg:}
+button.m-secondary:hover{color:#555;border-color:#999;}
 .m-overlay,.m-like_list{background:#fff;padding:.6em;box-shadow:0 0 .6em rgba(0,0,0,0.25);position:absolute;z-index:99999;display:none;}
 .m-overlay:after,.m-like_list:after{font-size:1em;line-height:1;color:#fff;font-family:icon;position:absolute;text-shadow:0 4px 5px rgba(0,0,0,0.15);text-shadow:0 -4px 5px rgba(0,0,0,0.15);content:'3';top:-.9em;left:45%}
 .m-overlay.m-active,.m-like_list.m-active{display:block}
