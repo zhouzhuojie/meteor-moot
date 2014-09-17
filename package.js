@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.use('jquery', 'client');
+  api.use('jquery@1.0.0', 'client');
   api.add_files('moot/moot.min.js', 'client');
 });
 
