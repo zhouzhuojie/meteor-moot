@@ -1,6 +1,6 @@
 Package.describe({
   summary: "moot, Real-time discussions right on your site.",
-  version: "0.1.1",
+  version: "0.1.2",
   git: "https://github.com/zhouzhuojie/meteor-moot.git",
   name: "mrt:moot"
 });
